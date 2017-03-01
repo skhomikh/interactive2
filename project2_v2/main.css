@@ -1,0 +1,17 @@
+.one {
+  left: 50px;
+  top: 150px;
+  position: absolute;
+}
+
+.two {
+  left: 50px;
+  top: 400px;
+  position: absolute;
+}
+
+.three {
+  left: 50px;
+  top: 250px;
+  position: absolute;
+}
