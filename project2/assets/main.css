@@ -1,23 +1,52 @@
 body {
+
+background-color: #f3f7b3;
+opacity:0.9;
 }
+
 
 /*frame*/
 .bigcircle0{
 	position:absolute;
 	width: 66px;
 	height: 66px;
-	border: 3px solid black; 
+	border: 3px #6dbee7;
+	opacity:0.9; 
 	border-radius: 50%;
+  	margin: 0;
+  	background: radial-gradient(circle at 100px 100px, #6dbee7, #0a2a3b);
 }
 
+.bigcircle2{
+	position:absolute;
+	width: 66px;
+	height: 66px;
+	border: 3px #e4ee57; 
+	border-radius: 50%;
+  	margin: 0;
+  	background: radial-gradient(circle at 100px 100px, #dae819, #fafce2);
+}
 
 
 .smallcircle0{
 	position:absolute;
+	opacity:0.9;
 	width: 30px;
 	height: 30px;
-	border: 3px solid black; 
+	border: 3px #15867a; 
 	border-radius: 50%;
+	margin: 0;
+  	background: radial-gradient(circle at 100px 100px, #15867a, #abf1d6);
+}
+
+.smallcircle2{
+	position:absolute;
+	width: 30px;
+	height: 30px;
+	border: 3px #6dbee7; 
+	border-radius: 50%;
+	margin: 0;
+  	background: radial-gradient(circle at 100px 100px, #6dbee7, #0a2a3b);
 }
 
 
@@ -27,6 +56,8 @@ body {
 	left:-137px;
 	top:200px; 
 }
+
+
 .scl1{
 	left:215px;
 	top:66px; 
@@ -79,8 +110,8 @@ body {
 /*I*/ 
 .letteri{
 	position:absolute;
-	left:300px;
-	top:71px; 
+    left: 361px;
+    top: 0px; 
 }
 
 .scl6{
@@ -111,8 +142,8 @@ body {
 /*E*/
 .lettere{
 	position:absolute;
-	left:450px;
-	top:71px; 
+    left: 512px;
+    top: 179px;
 }
 
 .scl9{
@@ -169,8 +200,8 @@ body {
 
 .letterh{
 	position:absolute;
-	left:700px;
-	top:71px; 
+    left: 777px;
+    top: 71px;
 }
 
 .scl14{
@@ -232,8 +263,8 @@ body {
 
 .lettert{
 	position:absolute;
-	left:1020px;
-	top:71px; 
+    left: 1105px;
+    top: 234px;
 }
 
 .scl19{
@@ -283,8 +314,8 @@ body {
 
 .letterf{
 	position:absolute;
-	left: 1021px;
-    top: 500px; 
+    left: 1026px;
+    top: 589px;
 }
 
 .scl23{
@@ -333,7 +364,7 @@ body {
 .letterl{
 	position:absolute;
 	left: 9px;
-    top: 500px; 
+    top: 409px; 
 }
 
 .scl28{
@@ -375,7 +406,7 @@ body {
 .letterp{
 	position:absolute;
 	left: 250px;
-    top: 500px; 
+    top: 373px; 
 }
 
 .scl31{
@@ -428,8 +459,8 @@ body {
     top: -75px;
 }
 
-/*B*/
-.letterb{
+/*8*/
+.number8{
 	position:absolute;
 	left: 510px;
     top: 500px; 
@@ -499,11 +530,11 @@ body {
     top: 49px;
 }
 
-/*O*/
-.lettero{
+/*0*/
+.number0{
 	position:absolute;
-	left: 780px;
-    top: 500px; 
+    left: 786px;
+    top: 399px;
 }
 
 .scl43{
@@ -567,8 +598,8 @@ body {
 /*Z*/
 .letterz{
 	position:absolute;
-	left: 780px;
-    top: 1025px; 
+    left: 800px;
+    top: 743px;
 }
 
 .bcl50{
@@ -684,9 +715,10 @@ body {
 
 /*M*/
 .letterm{
-	position:absolute;
-	left:1px;
-	top:1000px; 
+position:absolute;
+    left: 776px;
+    top: 2463px;
+
 }
 
 .scl61{
@@ -757,8 +789,8 @@ body {
 /*U*/
 .letteru{
 	position:absolute;
-	left: 566px;
-    top: 1006px;  
+    left: 553px;
+    top: 849px; 
 }
 
 .scl67{
@@ -882,8 +914,8 @@ body {
 /*W*/
 .letterw{
 	position:absolute;
-	left:1px;
-	top:1400px; 
+    left: 24px;
+    top: 1114px;
 }
 
 .scl79{
@@ -1031,8 +1063,8 @@ body {
 /*Y*/
 .lettery{
 	position:absolute;
-	left:600px;
-	top:1400px; 
+    left: 600px;
+    top: 1192px;
 }
 
 .scl92{
@@ -1150,8 +1182,8 @@ body {
 /*X*/
 .letterx{
 	position:absolute;
-	left:20px;
-	top:1780px; 
+    left: 83px;
+    top: 1434px; 
 }
 
 .scl102{
@@ -1202,8 +1234,8 @@ body {
 /*C*/
 .letterc{
 	position:absolute;
-	left: 223px;
-    top: 1780px;
+    left: 60px;
+    top: 2650px;
 }
 
 .scl107{
@@ -1254,8 +1286,8 @@ body {
 /*R*/
 .letterr{
 	position:absolute;
-	left: 456px;
-    top: 1780px;
+    left: 369px;
+    top: 1750px;
 }
 
 .scl111{
@@ -1320,8 +1352,8 @@ body {
 /*K*/
 .letterk{
 	position:absolute;
-	left: 713px;
-    top: 1780px;
+    left: 670px;
+    top: 1654px;
 }
 
 .scl117{
@@ -1386,8 +1418,8 @@ body {
 /*S*/
 .letters{
 	position:absolute;
-    left: 988px;
-    top: 1780px;
+    left: 1083px;
+    top: 1595px;
 }
 
 .scl123{
@@ -1449,35 +1481,1022 @@ body {
     top: 25px;
 }
 
+/*O*/
+.lettero{
+	position:absolute;
+	left:20px;
+    top:  2289px;
+}
+
+.scl129{
+	left: 181px;
+    top: -109px;
+}
+
+.bcl135{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl136{
+	left: 153px;
+	top: -76px;
+}
+
+.scl130{
+	left: 184px;
+    top: -5px;
+}
+
+.bcl137{
+	left: 180px;
+	top: -179px;
+}
+
+.scl131{
+	left: 251px;
+	top: -163px;
+}
+
+.bcl138{
+	left: 286px;
+	top: -179px;
+}
+
+.scl132{
+	left: 323px;
+    top: -110px;
+}
+.bcl139{
+	left: 319px;
+    top: -75px;
+}
+
+.scl133{
+	left: 321px;
+    top: -5px;
+}
+.bcl140{
+	left: 285px;
+    top: 28px;
+}
+
+.scl134{
+	left: 251px;
+    top: 49px;
+}
+
+
+/*Q*/
+.letterq{
+	position:absolute;
+	left: 298px;
+    top: 2134px;
+}
+
+.scl135{
+	left: 181px;
+    top: -109px;
+}
+
+.bcl141{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl142{
+	left: 153px;
+	top: -76px;
+}
+
+.scl136{
+	left: 184px;
+    top: -5px;
+}
+
+.bcl143{
+	left: 180px;
+	top: -179px;
+}
+
+.scl137{
+	left: 251px;
+	top: -163px;
+}
+
+.bcl144{
+	left: 286px;
+	top: -179px;
+}
+
+.scl138{
+	left: 323px;
+    top: -110px;
+}
+.bcl145{
+	left: 319px;
+    top: -75px;
+}
+
+.scl139{
+	left: 321px;
+    top: -5px;
+}
+.bcl146{
+	left: 285px;
+    top: 28px;
+}
+
+.scl140{
+	left: 251px;
+    top: 49px;
+}
+
+.scl141{
+    left: 334px;
+    top: 90px;
+}
+
+.scl142{
+    left: 268px;
+    top: 0px;
+}
+
+
+/*G*/
+.letterg{
+	position:absolute;
+    left: 587px;
+    top: 2134px;
+}
+
+.scl143{
+	left: 181px;
+    top: -109px;
+}
+
+.bcl147{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl148{
+	left: 153px;
+	top: -76px;
+}
+
+.scl144{
+	left: 184px;
+    top: -5px;
+}
+
+.bcl149{
+	left: 180px;
+	top: -179px;
+}
+
+.scl145{
+	left: 251px;
+	top: -163px;
+}
+
+.bcl150{
+	left: 286px;
+	top: -179px;
+}
+
+.scl146{
+	left: 323px;
+    top: -110px;
+}
+.bcl151{
+	left: 319px;
+    top: -75px;
+}
+
+.scl147{
+	left: 321px;
+    top: -5px;
+}
+.bcl152{
+	left: 285px;
+    top: 28px;
+}
+
+.scl148{
+	left: 251px;
+    top: 49px;
+}
+
+.scl149{
+    left: 334px;
+    top: 90px;
+}
+
+.scl150{
+    left: 280px;
+    top: -58px;
+}
+
+/*B*/
+.letterB{
+	position:absolute;
+    left: 857px;
+    top: 1969px;
+}
+
+.scl151{
+	left: 201px;
+    top: -109px;
+}
+
+.bcl153{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl154{
+	left: 182px;
+	top: -76px;
+}
+
+.scl152{
+	left: 200px;
+    top: -5px;
+}
+
+.bcl155{
+	left: 180px;
+	top: -179px;
+}
+
+.scl153{
+	left: 251px;
+	top: -163px;
+}
+
+.bcl156{
+	left: 286px;
+	top: -179px;
+}
+
+
+.scl154{
+	left: 251px;
+	top: -58px;
+}
+
+.scl155{
+	left: 308px;
+    top: -110px;
+}
+.bcl157{
+	left: 285px;
+    top: -75px;
+}
+
+.scl156{
+    left: 341px;
+    top: -5px;
+}
+.bcl158{
+	left: 285px;
+    top: 28px;
+}
+
+.scl157{
+	left: 251px;
+    top: 49px;
+}
+
+/*1*/ 
+.number1{
+	position:absolute;
+    left: 1146px;
+    top: 2134px;
+}
+
+.scl158{
+	left: 198px;
+	top: -5px;
+}
+
+.bcl159{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl160{
+	left: 182px;
+	top: -76px;
+}
+
+.scl159{
+	left: 198px;
+	top: -110px;
+}
+
+.bcl161{
+	left: 180px;
+	top: -179px;
+}
+
+.scl160{
+    left: 128px;
+    top: -128px;
+}
+
+/*2*/
+.number2{
+	position:absolute;
+    left: 1072px;
+    top: 2477px;
+}
+
+.bcl162{
+	left: 190px;
+    top: 10px;
+}
+
+.bcl163{
+	left: 240px;
+    top: -84px;
+}
+
+.scl161{
+	left: 235px;
+    top: -18px;
+}
+
+.bcl164{
+	left: 180px;
+	top: -179px;
+}
+
+.scl162{
+    left: 251px;
+    top: -177px;
+}
+
+.bcl165{
+	left: 286px;
+	top: -179px;
+}
+
+.scl163{
+    left: 295px;
+    top: -107px;
+
+}
+
+.bcl166{
+	left: 296px;
+    top: 10px;
+}
+
+.scl164{
+	left: 261px;
+    top: 33px;
+}
+
+.scl165{
+    left: 179px;
+    top: -109px;
+}
+/*3*/
+
+.number3{
+	position:absolute;
+     left: 39px;
+    top: 753px;
+}
+
+.bcl167{
+	left: 190px;
+    top: 10px;
+}
+
+.bcl168{
+	left: 240px;
+    top: -84px;
+}
+
+.scl166{
+    left: 298px;
+    top: -24px;
+}
+
+.bcl169{
+	left: 180px;
+	top: -179px;
+}
+
+.scl167{
+    left: 251px;
+    top: -164px;
+}
+
+.bcl170{
+	left: 286px;
+	top: -179px;
+}
+
+.scl168{
+    left: 295px;
+    top: -107px;
+
+}
+
+.bcl171{
+	left: 296px;
+    top: 10px;
+}
+
+.scl169{
+	left: 261px;
+    top: 33px;
+}
+
+.scl170{
+    left: 179px;
+    top: -109px;
+}
+
+/*4*/ 
+.number4{
+	position:absolute;
+    left: 618px;
+    top: 2463px;
+}
+
+.scl171{
+	left: 198px;
+	top: -5px;
+}
+
+.bcl172{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl173{
+	left: 182px;
+	top: -76px;
+}
+
+.scl172{
+	left: 198px;
+	top: -110px;
+}
+
+.bcl174{
+	left: 180px;
+	top: -179px;
+}
+
+.scl173{
+    left: 128px;
+    top: -128px;
+}
+
+.scl174{
+    left: 255px;
+    top: -39px;
+}
+
+.bcl175{
+    left: 67px;
+    top: -108px;
+}
+
+.scl175{
+    left: 143px;
+    top: -59px;
+}
+
+/*7*/
+
+.number7{
+	position:absolute;
+    left: 292px;
+    top: 2463px;
+}
+
+.bcl176{
+    left: 195px;
+    top: 17px;
+
+}
+
+.bcl177{
+    left: 241px;
+    top: -84px;
+}
+
+.scl176{
+    left: 237px;
+    top: -15px;
+
+}
+
+.bcl178{
+	left: 180px;
+	top: -179px;
+}
+
+.scl177{
+    left: 252px;
+    top: -158px;
+}
+
+.bcl179{
+	left: 286px;
+	top: -179px;
+}
+
+.scl178{
+    left: 282px;
+    top: -114px;
+
+}
+
+.bcl180{
+	left: 296px;
+    top: 10px;
+}
+
+.scl179{
+	left: 261px;
+    top: 33px;
+}
+
+/*6*/
+.number6{
+	position:absolute;
+    left: 106px;
+    top: 1780px;
+}
+
+.scl180{
+	left: 201px;
+    top: -109px;
+}
+
+.bcl181{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl182{
+	left: 182px;
+	top: -76px;
+}
+
+.scl181{
+	left: 200px;
+    top: -5px;
+}
+
+.bcl183{
+	left: 180px;
+	top: -179px;
+}
+
+.scl182{
+	left: 251px;
+	top: -163px;
+}
+
+.bcl184{
+	left: 286px;
+	top: -179px;
+}
+
+.scl183{
+ 	left: 252px;
+    top: -60px;
+
+}
+.bcl185{
+	left: 285px;
+    top: -75px;
+}
+
+.scl184{
+	left: 307px;
+    top: -5px;
+}
+.bcl186{
+	left: 285px;
+    top: 28px;
+}
+
+.scl185{
+	left: 251px;
+    top: 49px;
+}
+
+/*5*/
+.number5{
+	position:absolute;
+    left: 72px;
+    top: 2990px;
+}
+
+.scl186{
+	left: 201px;
+    top: -109px;
+}
+
+.bcl187{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl188{
+	left: 182px;
+	top: -76px;
+}
+
+.scl187{
+	left: 200px;
+    top: -5px;
+}
+
+.bcl189{
+	left: 180px;
+	top: -179px;
+}
+
+.scl188{
+	left: 251px;
+	top: -163px;
+}
+
+.bcl190{
+	left: 286px;
+	top: -179px;
+}
+
+.scl189{
+ 	left: 252px;
+    top: -60px;
+
+}
+.bcl191{
+	left: 285px;
+    top: -75px;
+}
+
+.scl190{
+	left: 307px;
+    top: -5px;
+}
+.bcl192{
+	left: 285px;
+    top: 28px;
+}
+
+.scl191{
+	left: 251px;
+    top: 49px;
+}
+
+/*9*/
+.number9{
+	position:absolute;
+    left: 321px;
+    top: 2846px;
+}
+
+.scl192{
+	left: 201px;
+    top: -109px;
+}
+
+.bcl193{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl194{
+	left: 182px;
+	top: -76px;
+}
+
+.scl193{
+    left: 306px;
+    top: -110px;
+}
+
+.bcl195{
+	left: 180px;
+	top: -179px;
+}
+
+.scl194{
+	left: 251px;
+	top: -163px;
+}
+
+.bcl196{
+	left: 286px;
+	top: -179px;
+}
+
+.scl195{
+ 	left: 252px;
+    top: -60px;
+
+}
+.bcl197{
+	left: 285px;
+    top: -75px;
+}
+
+.scl196{
+	left: 307px;
+    top: -5px;
+}
+.bcl198{
+	left: 285px;
+    top: 28px;
+}
+
+.scl197{
+	left: 251px;
+    top: 49px;
+}
+
+/*punctuation*/
+
+/*!*/ 
+.punctuation01{
+	position:absolute;
+    left: 589px;
+    top: 2846px;
+}
+
+.scl198{
+	left: 198px;
+	top: -5px;
+}
+
+.bcl199{
+	left: 182px;
+	top: 29px;
+}
+
+.bcl200{
+	left: 182px;
+	top: -76px;
+}
+
+.scl199{
+	left: 198px;
+	top: -110px;
+}
+
+.bcl201{
+	left: 180px;
+	top: -179px;
+}
+
+.scl200{
+    left: 200px;
+    top: 146px;
+}
+
+/*.*/
+
+.punctuation02{
+	position:absolute;
+    left: 700px;
+    top: 2764px;
+}
+
+.scl201{
+    left: 200px;
+    top: 146px;
+}
+
+
+/*?*/
+
+.punctuation03{
+	position:absolute;
+    left: 803px;
+    top: 2922px;
+}
+
+.bcl202{
+	left: 190px;
+    top: 10px;
+}
+
+.bcl203{
+	left: 240px;
+    top: -84px;
+}
+
+.scl202{
+ 	left: 259px;
+    top: 145px;
+
+}
+
+.bcl204{
+	left: 180px;
+	top: -179px;
+}
+
+.scl203{
+    left: 251px;
+    top: -164px;
+}
+
+.bcl205{
+	left: 286px;
+	top: -179px;
+}
+
+.scl204{
+    left: 295px;
+    top: -107px;
+
+}
+
+.bcl206{
+    left: 241px;
+    top: 26px;
+}
+
+.scl205{
+    left: 258px;
+    top: -12px;
+
+}
+
+.scl206{
+    left: 179px;
+    top: -109px;
+}
+
+/*"*/
+
+.punctuation04{
+	position:absolute;
+    left: 803px;
+    top: 2764px;
+}
+
+.scl207{
+    left: 373px;
+    top: -109px;
+}
+
+.scl208{
+    left: 417px;
+    top: -109px;
+}
+
+.scl209{
+left: 387px;
+    top: -150px;
+}
+
+.scl210{
+ 	left: 435px;
+    top: -151px;
+
+}
+
+/*"*/
+
+.punctuation05{
+	position:absolute;
+    left: 803px;
+    top: 2764px;
+}
+
+.scl211{
+    left: 538px;
+    top: -109px;
+}
+
+.scl212{
+    left: 584px;
+    top: -109px;
+}
+
+.scl213{
+    left: 570px;
+    top: -148px;
+}
+
+.scl214{
+ 	left: 526px;
+    top: -149px;
+
+}
+
 
 /*Animation*/
 
-.scl1 {
-  animation: stretch 1.5s ease-out 0s alternate infinite none running;
+.bigcircle0{
+  animation: stretch 4s ease-out 0s alternate infinite none running;
 }
 
-.bcl1 {
-  animation: stretch 3.5s ease-out 0s alternate infinite none running;
+.smallcircle0 {
+  animation: stretch 1.5s ease-out 0.3s alternate infinite none running;
 }
 
-@keyframes stretch {
+.smallcircle2 {
+  animation: stretch 0.9s ease-out 0.5s alternate infinite none running;
+}
+
+.bigcircle2 {
+  animation: stretch 1s ease-out 0.5s alternate infinite none running;
+}
+
+
+.number0:hover {
+	animation: stretch 2s ease-out 1.5s alternate infinite none running;
+}
+
+.number0 {
+	animation: stretch 2s ease-out 1.5s alternate infinite none running;
+	background: radial-gradient(circle at 100px 100px, red, yellow);
+}
+
+.number3 {
+	animation: stretch 2s ease-out 1.5s alternate infinite none running;
+	background: radial-gradient(circle at 100px 100px, red, yellow);
+}
+
+.number6 {
+	animation: stretch 2s ease-out 1.5s alternate infinite none running;
+	background: radial-gradient(circle at 100px 100px, red, yellow);
+}
+
+.number5 {
+	animation: stretch 2s ease-out 1.5s alternate infinite none running;
+	background: radial-gradient(circle at 100px 100px, red, yellow);
+}
+
+.number5 {
+	animation: stretch 2s ease-out 1.5s alternate infinite none running;
+	background: radial-gradient(circle at 100px 100px, red, yellow);
+}
+
+
+.smallcircle2:hover {
+	animation: stretch 2s ease-out 1.5s alternate infinite none running;
+	background: radial-gradient(circle at 100px 100px, red, yellow);
+}
+
+
+/*@keyframes stretch {
 
 0% {
     transform: scale(.3);
-    background-color: red;
+    background-color: black;
     border-radius: 100%;
 }
 
 50% {
-    background-color: orange;
+    background-color: #b2b2b2;
 }
 
 100% {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    background-color: yellow;
+    background-color: #eee;
+} 
+
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: red;
+  }
+  50% {
+    background-color: orange;
+  }
 }
 
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
 
 
 
