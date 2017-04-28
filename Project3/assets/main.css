@@ -1,0 +1,448 @@
+body{
+		font-family: 'Alegreya', serif;
+	}
+/*
+.page1 {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	background-color: #911e01;
+	text-align: center;
+}
+.maintext{
+	color: white;
+	font-size: 300px;
+    letter-spacing: 17px;
+    margin-top: 76px;
+}
+
+.page2 {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	background-color: #1896fc;
+	text-align: center;
+}*/
+.bgimg00{
+	position: fixed;
+	background-image: url("../fridaslettertwo.png");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+}
+.title01{
+	position: absolute;
+	background-image: url("../frida_02_i2.png");
+	opacity:.95;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+}
+.title02{
+	position: absolute;
+	background-image: url("../kahlo_black3.png");
+	opacity:.95;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+	top: 1536px;
+}
+
+.title02a{
+	background-image: url("../fridaportrait_bw.png");
+	position: absolute;
+	/*font-size: 50px;*/
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+	top: 2300px;
+}
+
+.text {
+    position: absolute;
+    left: 48px;
+    top: 354px;
+    text-align: left;
+    padding: 21px;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 3.5px;
+    font-weight: 200;
+    line-height: 36px;
+    background-color: #01010b;
+    opacity: .8;
+	
+}
+
+
+
+.title02b{
+	position: absolute;
+	opacity:0.5;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+	top: 3268px;
+}
+
+.title02c{
+	position: absolute;
+	background-image: url("../fridasletter.png");
+	opacity:.8;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+	top: 4050px;
+
+}
+
+.title02d{
+	position: absolute;
+	background-image: url("../fridasletter3.png");
+	opacity:.8;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+	top: 5000px;
+
+}
+
+.title03{
+	position: absolute;
+	width: 100%;
+	height: 768px;
+	top: 6000px;
+	position: absolute;
+	background-image: url("../twofridas.png");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.title03a{
+	position: absolute;
+	top: 7000px;
+	left:58px;
+}
+
+.quote1 {
+	background-color:#01010b;
+	opacity:.8;
+	color:#e8fae6;
+	padding:20px;
+	font-size:1.5em;
+	letter-spacing: 2px;
+	width: 227px;
+	left:100px;
+}
+
+.title03b{
+	position: absolute;
+	left:450px;
+	top: 8000px;
+}
+	
+.quote2 {
+	background-color:#01010b;
+	opacity:.8;
+	padding:20px;
+	font-size:1.5em;
+	letter-spacing: 2px;
+	width: 258px;
+	left:100px;
+	color:#e8fae6;
+	font-size:1.5em;
+	letter-spacing: 2px;
+
+}
+
+.title03c{
+	position: absolute;
+	left:350px;
+	top: 9000px;
+
+}
+
+.quote3 {
+	background-color:#01010b;
+	opacity:.8;
+	padding:20px;
+	font-size:1.5em;
+	letter-spacing: 2px;
+	width: 227px;
+	color:#e8fae6;
+	font-size:1.5em;
+	letter-spacing: 2px;
+
+}
+
+.title03d{
+	position: absolute;
+	left:700px;
+	top: 10000px;
+
+}
+
+.quote4 {
+	background-color:#01010b;
+	opacity:.8;
+	padding:20px;
+	font-size:1.5em;
+	letter-spacing: 2px;
+	width: 227px;
+	color:#e8fae6;
+	font-size:1.5em;
+	letter-spacing: 2px;
+
+}
+
+.title03e{
+	position: absolute;
+	left:1070px;
+	top: 10500px;
+
+}
+
+.quote5 {
+	background-color:#01010b;
+	opacity:.8;
+	padding:20px;
+	font-size:1.5em;
+	letter-spacing: 2px;
+	width: 227px;
+	color:#e8fae6;
+	font-size:1.5em;
+	letter-spacing: 2px;
+
+}
+
+.title03f{
+	position: absolute;
+	left:100px;
+	top: 11500px;
+
+}
+
+.quote6 {
+	background-color:#01010b;
+	opacity:.8;
+	padding:20px;
+	font-size:1.5em;
+	letter-spacing: 2px;
+	width: 227px;
+	color:#e8fae6;
+	font-size:1.5em;
+	letter-spacing: 2px;
+
+}
+
+.title03g{
+	position: absolute;
+	left:850px;
+	top: 12000px;
+
+}
+
+.quote7 {
+	background-color:#01010b;
+	opacity:.8;
+	padding:20px;
+	letter-spacing: 2px;
+	width: 227px;
+	color:#e8fae6;
+	font-size:1.5em;
+	letter-spacing: 2px;
+	opacity: .8;
+
+}
+
+@keyframes dissapear{
+0%{
+    opacity: 1;
+}
+50%{
+    opacity: 0.5;
+}
+100%{
+    display: none;
+    opacity: 0;
+}
+
+/*.title04 {
+	background-image: url("../fridaportrait_bw.png");
+	position: absolute;
+	width: 100%;
+	height: 768px;
+	top: 13000px;
+	opacity:.7;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+/*	width: 100%;
+	height: 768px;*/
+}/*
+
+/*.text2 {
+    position: absolute;
+    left: 38px;
+    top: 386px;
+    text-align: left;
+    padding: 21px;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 3.5px;
+    font-weight: 200;
+    line-height: 36px;
+    background-color: #01010b;
+    opacity: .8;
+    animation: dissapear 4s forwards;
+   
+	
+}*/
+
+
+
+
+
+.title04a {
+	background-image: url("../endpage_2.png");
+	position: absolute;
+	width: 100%;
+	height: 768px;
+	top: 13500px;
+	opacity:.95;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+/*	width: 100%;
+	height: 768px;*/
+}
+
+.link {
+	background-color:none;
+	position: absolute;
+    top: 674px;
+    left: 641px;
+    height: 87px;
+    width: 147px;
+
+}
+
+
+
+/*.logo{
+	position: absolute;
+	bottom:6%;
+	width: 268px;
+	height: 100px;
+	background-image: url("../SFMOMA_ID.png"); 
+	background-size: cover;
+	left: 53px;
+}
+
+/*
+.title0301{
+	position: absolute;
+	background-image: url("../twofridas.png");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 768px;
+}*/ 
+
+/*.title04 img{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+    top: -29px;
+    opacity:0;
+    animation: change .5s infinite;
+}
+
+
+/*
+
+@keyframes change {
+	0% {
+    opacity:0;
+  }
+  25% {
+    opacity:.25;
+  }
+  50% {
+    opacity:.5;
+  }
+  75% {
+    opacity:.75;
+  }
+  100% {
+    opacity:1;
+  }
+
+}
+
+
+.container {
+	position: relative;
+}
+.page {
+	width:100%;
+	position: absolute;
+}
+
+.one{
+	top: 800px;
+}
+
+.two {
+	position: fixed;
+}
+
+/*
+
+.heart {
+	position:absolute;
+	left: 346px;
+    top: 3357px;
+    opacity: 0;
+
+
+}
+
+.heart:hover {
+	opacity: 1;
+}
+
+.scissors {
+	position: absolute;
+    left: 352px;
+    top: 3546px;
+    opacity:0;
+
+}
+
+.scissors:hover {
+	opacity:1;
+}
+
+.hands {
+	height:50px;
+	width:50px;
+	background-color: none;
+	position:relative;
+    left: 603px;
+    top: 3490px;
+
+}
+
+.hands:hover {
+	background-color: red;
+
+}
